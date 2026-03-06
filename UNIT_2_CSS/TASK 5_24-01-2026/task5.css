@@ -1,0 +1,12 @@
+h2 {
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    color: blue;
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-size: 1.2em;
+}

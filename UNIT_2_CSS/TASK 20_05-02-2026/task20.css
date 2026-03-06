@@ -1,0 +1,32 @@
+body{
+    font-family: Arial;
+}
+
+/* Common box style */
+.box{
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+/* Border Radius */
+.radius{
+    border-radius: 20px;
+}
+
+/* Box Shadow */
+.shadow{
+    box-shadow: 5px 5px 10px gray;
+}
+
+/* Outline Effect */
+.outline{
+    outline: 3px solid darkblue;
+}
+
+/* Opacity */
+.opacity{
+    opacity: 0.5;
+}

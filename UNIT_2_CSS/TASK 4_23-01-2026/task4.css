@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+
+    /* Background Color */
+    background-color: lavender;
+
+    /* Background Image */
+    background-image: url("5185016.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: fit-content;
+}
+
+/* HEX */
+.hex {
+    color: #036800;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(24, 88, 208);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(200, 96%, 18%);
+}
+
+/* Gradient (Color Variation) */
+.gradient {
+    background: linear-gradient(to right, #99aaff, #00b688, #008dcf);
+}

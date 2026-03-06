@@ -1,0 +1,60 @@
+body{
+    font-family: Arial;
+}
+
+/* Grid Template Areas */
+.grid-layout{
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "footer footer";
+    gap: 10px;
+}
+
+.header{
+    grid-area: header;
+    background: lightblue;
+    padding: 20px;
+}
+
+.menu{
+    grid-area: menu;
+    background: lightgreen;
+    padding: 20px;
+}
+
+.content{
+    grid-area: content;
+    background: orange;
+    padding: 20px;
+}
+
+.footer{
+    grid-area: footer;
+    background: pink;
+    padding: 20px;
+}
+
+/* Auto Fit */
+.grid-autofit{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Auto Fill */
+.grid-autofill{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.box{
+    background: lightgray;
+    padding: 20px;
+    text-align: center;
+}

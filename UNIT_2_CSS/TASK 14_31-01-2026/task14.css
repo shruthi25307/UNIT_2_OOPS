@@ -1,0 +1,41 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Products Layout */
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Product Box */
+.product{
+    border: 1px solid darkblue;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+#h1tag{
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,17 @@
+h2 {
+    font-family: Arial, sans-serif;
+}
+.box1 {
+    width: 600px;
+    margin: 40px;
+    padding: 20px;
+    border: 4px solid black;
+    outline: 3px dashed blue;
+}
+.box2 {
+    width: 600px;
+    margin: 40px;
+    padding: 20px;
+    border: 4px solid rgb(200, 34, 183);
+    outline: 3px dashed rgb(255, 247, 0);
+}

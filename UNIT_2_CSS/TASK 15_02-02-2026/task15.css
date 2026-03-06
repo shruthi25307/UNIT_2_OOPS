@@ -1,0 +1,20 @@
+body{
+    font-family: Arial;
+}
+
+/* Grid Container */
+.grid-container{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 150px 150px;
+    grid-gap: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* Grid Items */
+.item{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
